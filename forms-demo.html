@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+
+    <!-- <form action="the information here is where we are submitting our form"></form> -->
+
+    <form action="/coolstuff">
+        <p>
+            <label for="username">Enter a Username:</label> <br>
+            <input id="username" type="text" placeholder="username">
+        </p>
+       
+        <p>
+            <label for="password">Enter a Password:</label> <br>
+            <input id="password" type="password" placeholder="password">
+        </p>
+       
+        <p>
+            <label for="color">Enter a Color:</label> <br>
+            <input type="color" id="color" >
+        </p>
+       
+        <p>
+            <label for="number">Enter a Number:</label> <br>
+            <input id="number" type="number" placeholder="enter a number">
+        </p>
+        
+        <p>
+            <label for="date">Enter a Date:</label> <br>
+            <input id="date" type="date">
+        </p>
+
+        <p>
+            <!-- this button you can add whatever text and it will appear in the button -->
+            <button>Submit!</button>
+            <!-- this button will only say submit unless you add value="Click Me!" -->
+            <input type="submit">
+        </p>
+        <!-- if button is in the form it will submit it -->
+    </form>
+
+</body>
+
+</html>
